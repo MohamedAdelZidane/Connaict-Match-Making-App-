@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800');
+
+/* @font-face {
+  font-family: "googlesans-regular-webfont";
+  src: url("fonts/googlesans-regular-webfont.woff");
+  src: 
+  url("fonts/googlesans-regular-webfont.woff") format("woff"),
+  url("fonts/googlesans-regular-webfont.woff") format("opentype"),
+  url("fonts/googlesans-regular-webfont.woff#filename") format("svg");
+  } */
+
+  @font-face {
+    font-family: 'GoogleSans-Bold';
+    src: url('./fonts/GoogleSans-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+  width:6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ccc; 
+}
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  #jumbotronColor{
+    padding: 5% 0% 10% 11%;
+    font-family: 'GoogleSans-Bold', sans-serif;
+  }
+
+  #head{
+    font-weight: 700;
+    color: #000639;
+    font-size: 2.5em;
+    margin-bottom: 0
+  }
+
+  #FirstTitle{
+    font-weight: 400;
+    color: #000639;
+    font-size: 1.5em;
+    margin-bottom: 0
+  }
+
+  #title{
+    font-weight: 400;
+    color: #000639;
+    font-size: 1.5em;
+    margin-bottom: 1em
+  }
+  
+    #CandbtnSubmit{
+        background-color: #202e78;
+        color: white;
+        text-align: center;
+        border: none;
+        height: 56px; 
+        border-radius: 5px;
+        width: 50%;
+        font-weight: 500;
+        font-size: 1.1em;
+        padding: 0.5em 0.5em;
+        /* box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15); */
+        font-family: 'GoogleSans-Bold', sans-serif;
+        border-color: transparent
+    }
+    #CandbtnSubmit:hover{
+      background-color: #5c6ac4;
+      color: white;
+  }
+    #CombtnSubmit{
+      background-color: #e0e0e0;
+      color: #000;
+      text-align: center;
+      border: none;
+      height: 56px; 
+      border-radius: 5px;
+      width: 50%;
+      font-weight: 500;
+      font-size: 1.1em;
+      padding: 0.5em 0.5em;
+      /* box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15); */
+      /* font-family: 'Poppins', sans-serif; */
+      border-color: transparent;
+      margin-top: 2%;
+      font-family: 'GoogleSans-Bold', sans-serif;
+  }
+  #CombtnSubmit:hover{
+    background-color: #9e9e9e;
+    color: #000;
+}
+
+
+    .NavBar{
+        padding-top: 2%
+    }
+    
+  }
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  #jumbotronColor{
+    /* #8aacc8; */
+    /* rgb(181, 215, 214) */
+    color: #000;
+    padding: 5% 0% 10% 11%;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  #head{
+    font-weight: 700;
+    color: #000639;
+    font-size: 2.1em;
+    margin-bottom: 0
+  }
+
+  #FirstTitle{
+    font-weight: 400;
+    color: #000639;
+    font-size: 1.5em;
+    margin-bottom: 0
+  }
+
+  #title{
+    font-weight: 400;
+    color: #000639;
+    font-size: 1.5em;
+    margin-bottom: 1em
+  }
+  
+  #CandbtnSubmit{
+    background-color: #202e78;
+    color: white;
+    text-align: center;
+    border: none;
+    height: 56px; 
+    border-radius: 5px;
+    width: 50%;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding: 0.5em 0.5em;
+    /* box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15); */
+    font-family: 'Poppins', sans-serif;
+    border-color: transparent
+}
+#CandbtnSubmit:hover{
+  background-color: #5c6ac4;
+  color: white;
+}
+#CombtnSubmit{
+  background-color: #e0e0e0;
+  color: #000;
+  text-align: center;
+  border: none;
+  height: 56px; 
+  border-radius: 5px;
+  width: 50%;
+  font-weight: 500;
+  font-size: 1.1em;
+  padding: 0.5em 0.5em;
+  /* box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15); */
+  font-family: 'Poppins', sans-serif;
+  border-color: transparent;
+  margin-top: 2%;
+  font-family: 'Poppins', sans-serif;
+}
+#CombtnSubmit:hover{
+background-color: #9e9e9e;
+color: #000;
+}
+
+
+    .NavBar{
+        padding-top: 2%
+    }
+  }
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  #jumbotronColor{
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Poppins', 'sans-serif'l
+  }
+
+  #head{
+    font-weight: 700;
+    color: #000639;
+    font-size: 3.75em;
+    margin-bottom: 0
+  }
+
+  #FirstTitle{
+    font-weight: 400;
+    color: #000639;
+    font-size: 2.5em;
+    margin-bottom: 0
+  }
+
+  #title{
+    font-weight: 400;
+    color: #000639;
+    font-size: 2.5em;
+    margin-bottom: 1em
+  }
+
+  #CandbtnSubmit{
+    background-color: #202e78;
+    color: white;
+    text-align: center;
+    border: none;
+    height: 56px; 
+    border-radius: 5px;
+    width: 50%;
+    font-weight: 550;
+    font-size: 1.1em;
+    padding: 0.5em 0.5em;
+    /* box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15); */
+    font-family: 'Poppins', sans-serif;
+    border-color: transparent
+}
+#CandbtnSubmit:hover{
+  background-color: #5c6ac4;
+  color: white;
+}
+#CombtnSubmit{
+  background-color: #e0e0e0;
+  color: #000;
+  text-align: center;
+  border: none;
+  height: 56px; 
+  border-radius: 5px;
+  width: 50%;
+  font-weight: 550;
+  font-size: 1.1em;
+  padding: 0.5em 0.5em;
+  /* box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15); */
+  font-family: 'Poppins', sans-serif;
+  border-color: transparent;
+  margin-top: 2%;
+  font-family: 'Poppins', sans-serif;
+}
+#CombtnSubmit:hover{
+background-color: #9e9e9e;
+color: #000;
+}
+
+.mobileImage{
+  padding: 10% 0% 10% 0%;
+}
+
+.homeImage{
+  width: 65%
+}
+    
+  }
+
+  /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  #jumbotronColor{
+    text-align: center;
+    padding-top: 5%
+  }
+
+  
+  #CandbtnSubmit{
+    background-color: #0d47a1;
+    color: white;
+    border: none;
+    height: 56px; 
+    border-radius: 2px;
+    width: 70%;
+    font-size: 16px;
+}
+#CandbtnSubmit:hover{
+  background-color: #0069c0;
+  color: white;
+}
+#CombtnSubmit{
+background-color: #e0e0e0;
+color: #000;
+border: none;
+height: 56px; 
+border-radius: 2px;
+width: 70%; 
+margin-top: 2%;
+}
+#CombtnSubmit:hover{
+background-color: #9e9e9e;
+color: #000;
+}
+
+.mobileImage{
+  padding: 10% 0% 10% 0%;
+}
+
+.homeImage{
+  width: 65%
+}
+    
+  }
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  #jumbotronColor{
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  #head{
+    font-weight: 800;
+    color: #000639;
+    font-size: 3.2em;
+    margin-bottom: 0
+  }
+
+  #FirstTitle{
+    font-weight: 400;
+    color: #000639;
+    font-size: 2em;
+    margin-bottom: 0
+  }
+
+  #title{
+    font-weight: 400;
+    color: #000639;
+    font-size: 2em;
+    margin-bottom: 1em
+  }
+
+  #CandbtnSubmit{
+    background-color: #202e78;
+    color: white;
+    text-align: center;
+    border: none;
+    height: 56px; 
+    border-radius: 5px;
+    width: 60%;
+    font-weight: 550;
+    font-size: 1.1em;
+    padding: 0.5em 0.5em;
+    /* box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15); */
+    font-family: 'Poppins', sans-serif;
+    border-color: transparent
+}
+#CandbtnSubmit:hover{
+  background-color: #5c6ac4;
+  color: white;
+}
+#CombtnSubmit{
+  background-color: #e0e0e0;
+  color: #000;
+  text-align: center;
+  border: none;
+  height: 56px; 
+  border-radius: 5px;
+  width: 60%;
+  font-weight: 550;
+  font-size: 1.1em;
+  padding: 0.5em 0.5em;
+  /* box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15); */
+  font-family: 'Poppins', sans-serif;
+  border-color: transparent;
+  margin-top: 2%;
+  font-family: 'Poppins', sans-serif;
+}
+#CombtnSubmit:hover{
+background-color: #9e9e9e;
+color: #000;
+}
+
+.mobileImage{
+  padding: 10% 0% 10% 0%;
+}
+
+.homeImage{
+  width: 65%
+}
+    
+  }
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+  @media (min-width: 320px) and (max-width: 480px) {
+    #jumbotronColor{
+      text-align: center;
+      padding-top: 5%;
+      font-family: 'Poppins', sans-serif;
+    }
+    #head{
+      font-weight: 800;
+      color: #000639;
+      font-size: 2em;
+      margin-bottom: 0
+    }
+
+    #FirstTitle{
+      font-weight: 400;
+      color: #000639;
+      font-size: 1.25em;
+      margin-bottom: 0
+    }
+  
+    #title{
+      font-weight: 400;
+      color: #000639;
+      font-size: 1.25em;
+      margin-bottom: 1em
+    }
+
+    #CandbtnSubmit{
+      background-color: #202e78;
+      color: white;
+      text-align: center;
+      border: none;
+      height: 56px; 
+      border-radius: 5px;
+      width: 60%;
+      font-weight: 500;
+      font-size: 1.1em;
+      padding: 0.5em 0.5em;
+      /* box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15); */
+      font-family: 'Poppins', sans-serif;
+      border-color: transparent
+  }
+  #CandbtnSubmit:hover{
+    background-color: #5c6ac4;
+    color: white;
+}
+  #CombtnSubmit{
+    background-color: #e0e0e0;
+    color: #000;
+    text-align: center;
+    border: none;
+    height: 56px; 
+    border-radius: 5px;
+    width: 60%;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding: 0.5em 0.5em;
+    /* box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15); */
+    font-family: 'Poppins', sans-serif;
+    border-color: transparent;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+}
+#CombtnSubmit:hover{
+  background-color: #9e9e9e;
+  color: #000;
+}
+
+.mobileImage{
+  padding: 10% 0% 10% 0%
+}
+.homeImage{
+  width: 65%
+}
+    
+  }
